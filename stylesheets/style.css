@@ -30,3 +30,14 @@ main{
 main #InfoPersonal {
     grid-area:fila1;
 }
+main #Educacion {
+    grid-area:fila21;
+
+}
+main #Habilidades {
+    grid-area:fila22;
+}
+main #IExperienciaL {
+    grid-area:fila23;
+}
+
