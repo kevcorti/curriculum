@@ -18,3 +18,15 @@ iframe{
   margin-left: auto;
   margin-right: auto;
 }
+main{
+ display: grid;
+ row-gap: 0.5rem;
+ column-gap: 0.5rem;
+ grid-template-areas: "fila1 fila1 fila1 fila1 fila1 fila1"
+     "fila21 fila21 fila22 fila22 fila23 fila23"
+     "fila31 fila31 fila31 fila32 fila32 fila32"
+     "fila41 fila41 fila41 fila41 fila41 fila41";
+}
+main #InfoPersonal {
+    grid-area:fila1;
+}
