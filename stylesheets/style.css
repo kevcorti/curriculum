@@ -19,25 +19,23 @@ iframe{
   margin-right: auto;
 }
 main{
- display: grid;
- row-gap: 0.5rem;
- column-gap: 0.5rem;
- grid-template-areas: "fila1 fila1 fila1 fila1 fila1 fila1"
-     "fila21 fila21 fila22 fila22 fila23 fila23"
-     "fila31 fila31 fila31 fila32 fila32 fila32"
-     "fila41 fila41 fila41 fila41 fila41 fila41";
+ display: flex; 
+row-gap: 0.5rem; 
+column-gap: 0.5rem; 
+flex-wrap: wrap; # 
+justify-content: space-between; 
 }
 main #InfoPersonal {
-    grid-area:fila1;
+   width: 100%;
 }
 main #Educacion {
-    grid-area:fila21;
+    width: 49.5%;
 
 }
 main #Habilidades {
-    grid-area:fila22;
+    width:49.5%;
 }
 main #ExperienciaL {
-    grid-area:fila23;
+    width: 100%;
 }
 
