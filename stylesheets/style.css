@@ -70,3 +70,9 @@ main #ExperienciaL {
 }
 media only screen and (max-width: 600px) {
 }
+.section {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
