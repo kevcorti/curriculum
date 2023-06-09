@@ -54,7 +54,7 @@ row-gap: 0.5rem;
 column-gap: 0.5rem; 
 flex-wrap: wrap; 
 align-items: center;
-justify-content: space-between; 
+justify-content: center; 
 }
 main > .section {
   border: 1px solid black;
@@ -72,6 +72,9 @@ main #Habilidades {
     width:49.5%;
 }
 main #ExperienciaL {
+    width: 100%;
+}
+main #Sugerencias {
     width: 100%;
 }
 media only screen and (max-width: 600px) {
