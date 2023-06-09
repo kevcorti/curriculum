@@ -54,12 +54,3 @@ main #Habilidades {
 main #ExperienciaL {
     width: 100%;
 }
-
-div {
-  border-bottom: 1px solid black;
-  padding: 10px;
-}
-
-div:last-child {
-  border-bottom: none;
-}
