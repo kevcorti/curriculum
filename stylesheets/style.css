@@ -55,6 +55,11 @@ column-gap: 0.5rem;
 flex-wrap: wrap; # 
 justify-content: space-between; 
 }
+main > .section {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
 main #InfoPersonal {
    width: 100%;
 }
@@ -70,9 +75,5 @@ main #ExperienciaL {
 }
 media only screen and (max-width: 600px) {
 }
-.section {
-  border-bottom: 1px solid black;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-}
+
 
