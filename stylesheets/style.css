@@ -74,6 +74,13 @@ main #Habilidades {
 main #ExperienciaL {
     width: 100%;
 }
+main #Video {
+    width: 48.5%;
+
+}
+main #Ubi {
+    width:48.5%;
+}
 main #Sugerencias {
     width: 100%;
 }
