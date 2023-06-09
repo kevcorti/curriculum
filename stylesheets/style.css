@@ -52,7 +52,8 @@ main{
  display: flex; 
 row-gap: 0.5rem; 
 column-gap: 0.5rem; 
-flex-wrap: wrap; # 
+flex-wrap: wrap; 
+align-items: center;
 justify-content: space-between; 
 }
 main > .section {
